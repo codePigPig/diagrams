@@ -1,23 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2022-02-11T08:07:41.345Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="FtnxBjbsm0LcbUnVD8_q" version="16.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T08:40:30.628Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="dhvmUDXri6UMJlLJHpoc" version="16.4.2" type="github">
   <diagram id="HNzaIMFUExI_mXiagAkN" name="第 1 页">
-    <mxGraphModel dx="701" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="757" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PaaChemKfkDf0DEPFf0G-5" value="电器淘小程序" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="120" width="100" height="300" as="geometry" />
+          <mxGeometry x="210" y="120" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="PaaChemKfkDf0DEPFf0G-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="PaaChemKfkDf0DEPFf0G-5">
-          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="140" as="geometry" />
         </mxCell>
         <mxCell id="PaaChemKfkDf0DEPFf0G-10" value="企微后台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="410" y="120" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="PaaChemKfkDf0DEPFf0G-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="PaaChemKfkDf0DEPFf0G-10">
-          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PaaChemKfkDf0DEPFf0G-49" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.141;exitY=0.21;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.993;entryY=0.491;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="PaaChemKfkDf0DEPFf0G-10" source="PaaChemKfkDf0DEPFf0G-13" target="PaaChemKfkDf0DEPFf0G-13">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="110" as="sourcePoint" />
+            <mxPoint x="180" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="101" />
+              <mxPoint x="90" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaaChemKfkDf0DEPFf0G-50" value="4.判断员工在职状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PaaChemKfkDf0DEPFf0G-49">
+          <mxGeometry x="0.0063" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PaaChemKfkDf0DEPFf0G-15" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="120" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="PaaChemKfkDf0DEPFf0G-28" value="1.点击&lt;font style=&quot;font-size: 10px&quot;&gt;客户&lt;/font&gt;列表" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.044;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PaaChemKfkDf0DEPFf0G-15" target="PaaChemKfkDf0DEPFf0G-12">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="85" y="194" as="sourcePoint" />
+            <mxPoint x="410" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaaChemKfkDf0DEPFf0G-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.193;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.067;exitY=0.155;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PaaChemKfkDf0DEPFf0G-12" target="PaaChemKfkDf0DEPFf0G-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="266" y="202" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PaaChemKfkDf0DEPFf0G-41" value="2.查询员工在职状态(账户名)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PaaChemKfkDf0DEPFf0G-36">
+          <mxGeometry x="-0.0309" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
